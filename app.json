@@ -28,7 +28,8 @@
       "permissions": [
         "RECEIVE_BOOT_COMPLETED",
         "SCHEDULE_EXACT_ALARM"
-      ]
+      ],
+      "package": "Nowidas.FeelAlignment"
     },
     "web": {
       "favicon": "./assets/favicon.png"
