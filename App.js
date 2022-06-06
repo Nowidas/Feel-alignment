@@ -6,8 +6,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
 import { Clipboard } from 'react-native';
 
-API_KEY = require('API_KEY.js')
-
+// Import api key for DB
+const API_KEY_JS = require('./API_KEY');
+let API_KEY = API_KEY_JS.getkey();
 
 export default class App extends React.Component {
 
